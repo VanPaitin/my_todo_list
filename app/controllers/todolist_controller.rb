@@ -6,6 +6,7 @@ class TodoListController < PaitinHana::BaseController
   end
 
   def new
+
   end
 
   def edit
