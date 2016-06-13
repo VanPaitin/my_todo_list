@@ -1,4 +1,4 @@
-TodoApplication.routes.draw do
+TodoList.routes.draw do
   get "/todos", to: "todolist#index"
   get "/todo/:id", to: "todolist#show"
   get "/todo/new", to: "todolist#new"
@@ -7,4 +7,6 @@ TodoApplication.routes.draw do
   put "/todo/:id", to: "todolist#update"
   patch "/todo/:id", to: "todolist#update"
   delete "/todo/:id", to: "todolist#destroy"
+  get "/pages/about", to: "pages#about"
+  get "/pages/tell_me", to: "pages#tell_me"
 end

@@ -1,3 +1,5 @@
 require "./config/application.rb"
+TodoList =  MyTodoList::Application.new
+require "./config/routes.rb"
 
-run MyTodoList::Application.new
+run TodoList
