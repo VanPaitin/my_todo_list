@@ -5,6 +5,6 @@ class PagesController < PaitinHana::BaseController
 
   def tell_me
     # render :tell_me, { name: params["name"] }
-    @name = "Mayowa Pitan"
+    @name = "Eyio of the Ruby Tabernacle"
   end
 end

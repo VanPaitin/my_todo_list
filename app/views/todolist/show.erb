@@ -1,0 +1,7 @@
+<h1>This todo</h1>
+
+<h1>&nbsp;  &nbsp; <%= @todolist.title %></h1>
+<p>&nbsp;  &nbsp; <%= @todolist.todo %></p>
+<h4> &nbsp;  &nbsp; Created on : <%= @todolist.created_at %></h4>
+<p><a href="/todo/<%= @todolist.id %>/edit">Edit</a></p>
+<h6>Go to &nbsp; <a href="/todos">All Todolists</a></h6>
