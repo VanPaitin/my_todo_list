@@ -1,0 +1,16 @@
+<h2>This is supposed to be the edit page</h2>
+<p>I do hope it doesn't waste so much of my time</p>
+<div class="form-group">
+  <form action="/todo/<%= @todolist.id %>" method="post">
+    <input type="hidden" name="_method" value="put">
+    Title:<br>
+    <p><input type="text" name="title" value="<%= @todolist.title %>"><br></p>
+    Todo:<br>
+    <p><textarea rows="10" cols="20" name="todo"><%= @todolist.todo %></textarea></p>
+    Status:<br>
+    <p><input type="radio" name="status" value="pending"> &nbsp;  &nbsp; Pending</p>
+    <p><input type="radio" name="status" value="done"> &nbsp;  &nbsp; Done</p>
+      <img src="http://www.htmldog.com/badge1.gif" width="120" height="90" alt="HTML Dog">
+      <p><input type="submit"></p>
+  </form>
+</div>
