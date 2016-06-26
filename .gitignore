@@ -1,9 +1,12 @@
 /Gemfile.lock
 # added by GitSavvy
 /my_todo_list.sublime-project
-
-# added by GitSavvy
 /my_todo_list.sublime-workspace
+.DS_Store
+
 
 # added by GitSavvy
-.DS_Store
+/db/app.db
+
+# added by GitSavvy
+/db/app.db
